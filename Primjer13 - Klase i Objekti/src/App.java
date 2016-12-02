@@ -20,12 +20,12 @@ public class App {
          
         // Kreiramo objekat person1 tipa klase Person
         Person person1 = new Person();  
-        person1.name = "Joe Bloggs";
+        person1.name = "Marko Javic";
         person1.age = 37;
          
         // Kreiramo jos jedan objekat tipa klase Person
         Person person2 = new Person();
-        person2.name = "Sarah Smith";
+        person2.name = "Goran Eclipsic";
         person2.age = 20;
          
         System.out.println(person1.name);
