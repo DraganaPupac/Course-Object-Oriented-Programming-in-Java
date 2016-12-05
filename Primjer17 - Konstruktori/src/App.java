@@ -15,7 +15,7 @@ class Machine {
     }
      
     public Machine(String name, int code) {
-         
+    	
         System.out.println("Treci konstruktor je aktiviran!");
         this.name = name;
         this.code = code;
