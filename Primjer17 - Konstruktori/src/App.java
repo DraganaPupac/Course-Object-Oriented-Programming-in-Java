@@ -12,8 +12,6 @@ class Machine {
         this(name, 0);
          
         System.out.println("Drugi konstruktor je aktiviran!");
-        // No longer need following line, since we're using the other constructor above.
-        //this.name = name;
     }
      
     public Machine(String name, int code) {
