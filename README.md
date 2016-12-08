@@ -8,3 +8,5 @@ Isto tako, molim Vas da popunite Anketu vezanu za predznanja na sljedećoj adres
 https://goo.gl/forms/VI0Ic2So3u3sIbYe2
 
 Svrha ankete jeste bolji uvid u profil korisnika ove obuke, te dorađivanje materijala za one oblasti koje su nedovoljno obrađene ili za koje ne postoje dovoljna predznanja.
+
+Upotreba materijala u bilo koju svrhu (izuzev samostalne edukacije) moguća je samo uz prethodnu dozvolu autora.
