@@ -13,7 +13,7 @@ public class App {
 		car1.run();
 		
 		/* 		
-		 * Machine machine1 = new Machine(); <-- ovo nikada necemo raditi, izazvace gresku
+		 * Machine machine1 = new Machine(); <-- ovo nikada necemo raditi, izazvace gresku 
 		 */
 	}
 
