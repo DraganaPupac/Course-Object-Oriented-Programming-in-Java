@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) {
        
-         
+        // Ovo su neke vrijednosti
         int[] values;
         values = new int[3];
          
