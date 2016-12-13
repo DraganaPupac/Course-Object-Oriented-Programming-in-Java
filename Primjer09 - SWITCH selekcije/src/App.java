@@ -11,8 +11,8 @@ public class App {
         String text = input.nextLine();
  
         switch (text) {
-        case "start":
-            System.out.println("Mašina je pokrenuta!");
+        case "start": 
+            System.out.println("Mašina je pokrenuta!"); 
             break;
  
         case "stop":
