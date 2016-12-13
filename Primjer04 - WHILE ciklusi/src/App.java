@@ -10,6 +10,13 @@ public class App {
             
             value = value + 1;
         }
-	}
 
+	}
 }
+
+/* Zadatak: 
+ * 
+ * 1. Napisati While petlju koja ispisuje vrijednosti od 0 do 100
+ * 2. Napisati While petlju koja ispisuje vrijednosti od 30 do 50
+ * 3. Napisati While petlju koja ispisuje vrijednsoti od 50 do 30
+ */

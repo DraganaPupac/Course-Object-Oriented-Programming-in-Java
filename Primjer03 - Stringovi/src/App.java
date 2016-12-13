@@ -28,12 +28,14 @@ public class App {
 		// Zelimo ispisati ime i prezime
 		System.out.println(ime + " " + prezime);
 			
-		/*
-		 * Zadatak:
-		 * Napraviti program koji sadrzi NIZ Stringova unutar koga se nalaze
-		 * imena i prezimena clanova grupe
-		 * Ovaj Niz ispisati petljom.
-		 */
 	}
 
 }
+
+/*
+ * Zadatak:
+ * 
+ * 1. Napraviti program koji sadrzi NIZ Stringova unutar koga se nalaze
+ *    imena i prezimena clanova grupe. 
+ * 2. Kreirani niz ispisati/izlistati u konzolu petljom.
+ */
