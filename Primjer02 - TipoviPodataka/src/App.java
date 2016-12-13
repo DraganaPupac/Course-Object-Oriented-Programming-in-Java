@@ -30,6 +30,10 @@ public class App {
 		System.out.println(myChar);
 		System.out.println(myBoolean);
 		System.out.println(myByte);
+		
+		String ime = null;
+		String prezime = null;
+
 	}
 
 }

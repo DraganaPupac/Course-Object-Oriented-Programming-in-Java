@@ -2,7 +2,7 @@ public class App {
 	
 	public static void main(String[] args) {
 		
-		// Deklarisanje stringa
+		// Deklarisanje niza (niza stringova)
 		String[] words = new String[3];
 		
 		// Unos vrijednosti za string
@@ -15,10 +15,25 @@ public class App {
 		
 		// Kratka forma FOR petlje 
 		// Ovaj dio se radi tek na sljedecim primjerima, za sada ga usvojiti ovakvog
-		for(String fruit: fruits) {
+		for(String fruit : fruits) {
+			// Kompletan kod koji obradjuje instancu - fruit
 			System.out.println(fruit);
 		}
+		
+		/*
+		 * Podsjecanje na konkatenaciju Stringova
+		 */
+		String ime = "Marko";
+		String prezime = "Markovic";
+		// Zelimo ispisati ime i prezime
+		System.out.println(ime + " " + prezime);
 			
+		/*
+		 * Zadatak:
+		 * Napraviti program koji sadrzi NIZ Stringova unutar koga se nalaze
+		 * imena i prezimena clanova grupe
+		 * Ovaj Niz ispisati petljom.
+		 */
 	}
 
 }
