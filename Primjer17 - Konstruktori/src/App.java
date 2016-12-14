@@ -40,10 +40,14 @@ class Machine {
  
 public class App {
     public static void main(String[] args) {
-        Machine machine1 = new Machine();
+    	
+        System.out.println("-- Inicijalizacija objekta pomocu prvog konstruktora --");
+    	Machine machine1 = new Machine();
  
+    	System.out.println("-- Inicijalizacija objekta pomocu drugog konstruktora --");
         Machine machine2 = new Machine("B masina");
-         
+        
+        System.out.println("-- Inicijalizacija objekta pomocu treceg konstruktora --");
         Machine machine3 = new Machine("C masina", 7);
         
         System.out.println(machine1);
