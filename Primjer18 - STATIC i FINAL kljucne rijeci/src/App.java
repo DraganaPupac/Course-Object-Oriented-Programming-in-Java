@@ -52,6 +52,7 @@ public class App {
         System.out.println(Math.PI);
          
         System.out.println(Thing.LUCKY_NUMBER);
+        
     }
  
 }
