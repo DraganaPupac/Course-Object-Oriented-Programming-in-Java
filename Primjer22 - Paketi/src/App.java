@@ -11,6 +11,7 @@ public class App {
 		korisnik1.setPassword("pass123");
 		
 		
+		
 		Admin admin1 = new Admin();
 		admin1.setId(2);
 		admin1.setName("Goran");
