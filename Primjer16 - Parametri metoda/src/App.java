@@ -37,3 +37,14 @@ public class App {
     }
  
 }
+
+/*
+ * Zadatak:
+ * 
+ * 1 - Zaba treba da ima i atribut koji opisuje njenu boju
+ * 2 - Kreirati jos jedan objekat 
+ * 3 - Iskoristiti funkciju setInfo (inicijalizovati novi objekat pomocu ove funkcije), npr. frog2.setInfo...
+ * 4 - Napisati funkciju makeSound() koja "ispisuje zvuk na konzolu"
+ * 
+ * Napomena: Kada napravite treci atribut, potrebno je prosiriti funkciju setInfo sa novim atributom
+ */
