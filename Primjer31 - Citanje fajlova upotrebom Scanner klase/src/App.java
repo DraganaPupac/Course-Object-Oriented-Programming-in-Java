@@ -11,23 +11,27 @@ import java.util.Scanner;
 public class App {
  
     public static void main(String[] args) throws FileNotFoundException {
-        //String fileName = "C:/Users/admin/Desktop/example.txt";
-        String fileName =  "example.txt";
+        String fileName = "C:/Users/admin/Desktop/example.txt";
+        //String fileName =  "example.txt";
         File textFile = new File(fileName);
+       // File file1 = new File("C:\nekaputanja\nekifajl.txt");
          
+        // prije smo imali Scanner in = new Scanner(... ocitavanje iz konzole)
         Scanner in = new Scanner(textFile);
          
+        /*
         int value = in.nextInt();
         System.out.println("Read value: " + value);
          
         in.nextLine();
-         
-        int count = 2;
+        
+        */
+       // int count = 1;
         while(in.hasNextLine()) {
             String line = in.nextLine();
              
-            System.out.println(count + ": " + line);
-            count++;
+            System.out.println(/*count + ": " + */ line);
+           // count++;
         }
          
         in.close();
