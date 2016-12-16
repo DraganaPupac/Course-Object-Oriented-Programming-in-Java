@@ -26,6 +26,6 @@ public class App {
  * 
  * Kreirati unutrasnju klasu klase Robot
  * 1. Eye (oko) - klasa ima javnu metodu watch() koja ispisuje "Posmatranje.." na konzolu
- * 2. Konstruktor klase Robot treba inicijalizovati dva oka i pokrenuti metodu za posmatranje "progledati"
+ * 2. Nakon kreiranja robota treba inicijalizovati dva oka i pokrenuti metodu za posmatranje "progledati"
  *
  */
