@@ -3,6 +3,7 @@
  * 
  * 1. Napraviti enumerator DanUSedmici
  * 2. Kreirati promjenjivu tipa DanUSedmici u glavnom programu
+ * 
  */
 public class App {
 	/*
