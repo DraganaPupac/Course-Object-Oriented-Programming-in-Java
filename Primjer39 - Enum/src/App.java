@@ -1,4 +1,9 @@
-
+/*
+ * Zadatak:
+ * 
+ * 1. Napraviti enumerator DanUSedmici
+ * 2. Kreirati promjenjivu tipa DanUSedmici u glavnom programu
+ */
 public class App {
 	/*
 	public static final int DOG = 0;
@@ -8,6 +13,10 @@ public class App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		DanUSedmici nekidan = DanUSedmici.UTORAK;
+		
+		Animal zivotinja = Animal.CAT;
 		
 		Animal animal = Animal.DOG;
 		
