@@ -27,6 +27,18 @@ class StringLengthComparator implements Comparator<String> {
 	
 }
 
+class NekoSortiranjeKojeJeCustom implements Comparator<String> {
+
+	@Override
+	public int compare(String arg0, String arg1) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Sortiranje u toku!");
+		return -1;
+	}
+	
+}
+
 /*
  * Sorting in alpgabetical order
  */
@@ -68,7 +80,7 @@ public class App {
 		
 		// Collections.sort(animals)
 		// Collections.sort(animals, new StringLengthComparator());
-		Collections.sort(animals, new ReverseAlphabeticalComparator());
+		Collections.sort(animals, new NekoSortiranjeKojeJeCustom());
 		
 		for(String animal: animals) {
 			System.out.println(animal);
