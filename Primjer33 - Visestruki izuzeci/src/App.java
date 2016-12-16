@@ -4,6 +4,12 @@ import java.text.ParseException;
 public class App {
  
     public static void main(String[] args)  {
+    	
+    	// Zahtjev
+    	int counter = 9;
+    	// Kada se pojavi Exception tj. greska, ispisati koliko je bilo prethodnih gresaka
+    	// tj. kada se pojavi greska, ispisati counter promjenjivu u konzolu sa prikladnim tekstom
+    	
         Test test = new Test();
          
         // visestruki try-catch blok

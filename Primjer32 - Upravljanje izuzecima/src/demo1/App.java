@@ -8,11 +8,22 @@ import java.io.FileReader;
 public class App {
  
     @SuppressWarnings({ "unused", "resource" })
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args)  {
          
-        File file = new File("test.txt");
+    	String fajl = "test.txt";
+        File file = new File(fajl);
          
-        FileReader fr = new FileReader(file);
+        try {
+			FileReader fr = new FileReader(file);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Greska: fajl " + fajl + "ne postoji na sistemu." );
+			System.out.println("Vise detalja / report : ");
+			System.out.println("----------------------------------------------------");
+			e.printStackTrace();
+			System.out.println("----------------------------------------------------");
+			
+		}
     }
  
 }
