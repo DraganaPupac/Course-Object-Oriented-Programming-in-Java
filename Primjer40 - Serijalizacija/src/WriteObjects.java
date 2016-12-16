@@ -3,6 +3,15 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
+/*
+ * Zadatak:
+ * 
+ * 1. Napraviti novu klasu Machine, sa atributima id, name (String), status (int), working (true/false)
+ * 2. Kreirati dva objekta tipa Machine
+ * 3. Serijalizovati objekte
+ * 4. Deserijalizovati objekte unutar ReadObjects.java primjera
+ */
+
 public class WriteObjects {
 	
 		public static void main(String[] args) {
@@ -13,6 +22,8 @@ public class WriteObjects {
 			
 			System.out.println(mike);
 			System.out.println(sue);
+			
+			// Sve do ovog momenta, nije se dogodila serijalizacija..
 			
 			try(FileOutputStream fs = new FileOutputStream("people.bin")) {
 			

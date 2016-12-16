@@ -1,7 +1,7 @@
 import java.io.Serializable;
 
 public class Person implements Serializable {
-	
+
 	private static final long serialVersionUID = 4801633306273802062L;
 	private int id;
 	private String name;
@@ -15,6 +15,6 @@ public class Person implements Serializable {
 	public String toString() {
 		return "Person [id=" + id + ", name=" + name + "]";
 	}
-	
 
 }
+

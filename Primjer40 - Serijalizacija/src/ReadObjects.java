@@ -17,6 +17,8 @@ public class ReadObjects {
 			
 			os.close();
 			
+			// ovdje deserijalizacija zavrsava...
+			
 			System.out.println(person1);
 			System.out.println(person2);
 			
